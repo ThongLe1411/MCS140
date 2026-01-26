@@ -23,4 +23,23 @@
  * 
  * Integrated Development Environment (IDE)
  * 
+Java names must be valid identifiers for classes, variables, and methods
+Valid identifier can only contain: letters, digits, $, and _
+Java is case-sensitive (upper != lowercase)
+Cannot start with Digits
+
+First letter in the file is capitalized !
+Java reversed/ keywords cannot be used as identifiers 
+
+Inside the class, we have the main method (every java program has) to be runnable/ executable
  */
+public class FirstProgram {
+    //the class name should match up with the program's name
+    public static void main(String[] args) {
+        //Prints "Hello, World" out in the terminal
+        System.out.println("Hello, World!");
+        System.out.println("Goodbye world");
+    }
+
+}
+
