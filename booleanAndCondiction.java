@@ -36,5 +36,9 @@ public class booleanAndCondition{
         else {
             System.out.println("It seems like your number neither is even nor odd");
         }
+
+    if(userInteger % 5 == 0 && userInteger > 0){
+            System.out.println("Your number is a positive multiple of 5");
+        }
   }
 }
